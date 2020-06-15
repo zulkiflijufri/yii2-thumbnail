@@ -1,0 +1,1869 @@
+2020-06-15 17:06:56 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:06:52 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47328'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592240812.008
+    'REQUEST_TIME' => 1592240812
+]
+2020-06-15 17:08:58 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:08:58 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47470'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592240938.197
+    'REQUEST_TIME' => 1592240938
+]
+2020-06-15 17:09:02 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:09:02 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47478'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592240942.0261
+    'REQUEST_TIME' => 1592240942
+]
+2020-06-15 17:09:59 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:09:59 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47500'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592240999.2125
+    'REQUEST_TIME' => 1592240999
+]
+2020-06-15 17:10:00 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:10:00 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47512'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241000.4976
+    'REQUEST_TIME' => 1592241000
+]
+2020-06-15 17:10:00 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:10:00 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47524'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241000.7876
+    'REQUEST_TIME' => 1592241000
+]
+2020-06-15 17:10:01 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:10:01 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47536'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241001.1082
+    'REQUEST_TIME' => 1592241001
+]
+2020-06-15 17:10:01 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:10:01 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47548'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241001.264
+    'REQUEST_TIME' => 1592241001
+]
+2020-06-15 17:10:01 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:10:01 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47556'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241001.8054
+    'REQUEST_TIME' => 1592241001
+]
+2020-06-15 17:21:17 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:21:16 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47720'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241676.6219
+    'REQUEST_TIME' => 1592241676
+]
+2020-06-15 17:25:42 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:42 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47784'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241942.2495
+    'REQUEST_TIME' => 1592241942
+]
+2020-06-15 17:25:43 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:43 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47796'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241943.1785
+    'REQUEST_TIME' => 1592241943
+]
+2020-06-15 17:25:43 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:43 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47808'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241943.6016
+    'REQUEST_TIME' => 1592241943
+]
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47822'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241944.3184
+    'REQUEST_TIME' => 1592241944
+]
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47834'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241944.5679
+    'REQUEST_TIME' => 1592241944
+]
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47846'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241944.7101
+    'REQUEST_TIME' => 1592241944
+]
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:44 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47858'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241944.8632
+    'REQUEST_TIME' => 1592241944
+]
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47870'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241945.13
+    'REQUEST_TIME' => 1592241945
+]
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47882'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241945.4207
+    'REQUEST_TIME' => 1592241945
+]
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47894'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241945.5925
+    'REQUEST_TIME' => 1592241945
+]
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:45 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47906'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241945.7333
+    'REQUEST_TIME' => 1592241945
+]
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47918'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241946.0215
+    'REQUEST_TIME' => 1592241946
+]
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47930'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241946.1846
+    'REQUEST_TIME' => 1592241946
+]
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47938'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241946.3294
+    'REQUEST_TIME' => 1592241946
+]
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47950'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241946.4834
+    'REQUEST_TIME' => 1592241946
+]
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:46 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47962'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241946.809
+    'REQUEST_TIME' => 1592241946
+]
+2020-06-15 17:25:47 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:47 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47974'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241947.1407
+    'REQUEST_TIME' => 1592241947
+]
+2020-06-15 17:25:47 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\AutoloadExample' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:25:47 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '47986'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592241947.5969
+    'REQUEST_TIME' => 1592241947
+]
+2020-06-15 17:27:11 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\Thumbnail' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:27:11 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48018'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592242031.4146
+    'REQUEST_TIME' => 1592242031
+]
+2020-06-15 17:28:28 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\Thumbnail' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:28:28 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48046'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592242108.6688
+    'REQUEST_TIME' => 1592242108
+]
+2020-06-15 17:28:29 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\Thumbnail' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:28:29 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48058'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592242109.5885
+    'REQUEST_TIME' => 1592242109
+]
+2020-06-15 17:28:30 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\Thumbnail' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:28:30 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48072'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592242110.0106
+    'REQUEST_TIME' => 1592242110
+]
+2020-06-15 17:29:37 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\Thumbnail' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:29:37 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48098'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592242177.5807
+    'REQUEST_TIME' => 1592242177
+]
+2020-06-15 17:34:02 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][error][Error] Error: Class 'zulkiflijufri\bs\Thumbnail' not found in /home/zulkifli/Development/workshop-ext-yii2/views/site/index.php:15
+Stack trace:
+#0 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(348): require()
+#1 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(257): yii\base\View->renderPhpFile('/home/zulkifli/...', Array)
+#2 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/View.php(156): yii\base\View->renderFile('/home/zulkifli/...', Array, Object(app\controllers\SiteController))
+#3 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(386): yii\base\View->render('index', Array, Object(app\controllers\SiteController))
+#4 /home/zulkifli/Development/workshop-ext-yii2/controllers/SiteController.php(64): yii\base\Controller->render('index')
+#5 [internal function]: app\controllers\SiteController->actionIndex()
+#6 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/InlineAction.php(57): call_user_func_array(Array, Array)
+#7 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Controller.php(157): yii\base\InlineAction->runWithParams(Array)
+#8 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Module.php(528): yii\base\Controller->runAction('', Array)
+#9 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/web/Application.php(103): yii\base\Module->runAction('', Array)
+#10 /home/zulkifli/Development/workshop-ext-yii2/vendor/yiisoft/yii2/base/Application.php(387): yii\web\Application->handleRequest(Object(yii\web\Request))
+#11 /home/zulkifli/Development/workshop-ext-yii2/web/index.php(12): yii\base\Application->run()
+#12 {main}
+2020-06-15 17:34:02 [127.0.0.1][-][soa62jsosarn3kb73cqarhifpi][info][application] $_GET = []
+
+$_POST = []
+
+$_FILES = []
+
+$_COOKIE = [
+    'PHPSESSID' => 'soa62jsosarn3kb73cqarhifpi'
+    '_csrf' => '52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa:2:{i:0;s:5:\"_csrf\";i:1;s:32:\"BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k\";}'
+]
+
+$_SESSION = [
+    '__flash' => []
+]
+
+$_SERVER = [
+    'DOCUMENT_ROOT' => '/home/zulkifli/Development/workshop-ext-yii2/web'
+    'REMOTE_ADDR' => '127.0.0.1'
+    'REMOTE_PORT' => '48218'
+    'SERVER_SOFTWARE' => 'PHP 7.2.19-0ubuntu0.18.04.2 Development Server'
+    'SERVER_PROTOCOL' => 'HTTP/1.1'
+    'SERVER_NAME' => 'localhost'
+    'SERVER_PORT' => '8080'
+    'REQUEST_URI' => '/'
+    'REQUEST_METHOD' => 'GET'
+    'SCRIPT_NAME' => '/index.php'
+    'SCRIPT_FILENAME' => '/home/zulkifli/Development/workshop-ext-yii2/web/index.php'
+    'PHP_SELF' => '/index.php'
+    'HTTP_HOST' => 'localhost:8080'
+    'HTTP_CONNECTION' => 'keep-alive'
+    'HTTP_CACHE_CONTROL' => 'max-age=0'
+    'HTTP_UPGRADE_INSECURE_REQUESTS' => '1'
+    'HTTP_USER_AGENT' => 'Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/73.0.3683.75 Safari/537.36'
+    'HTTP_ACCEPT' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3'
+    'HTTP_ACCEPT_ENCODING' => 'gzip, deflate, br'
+    'HTTP_ACCEPT_LANGUAGE' => 'id,en-US;q=0.9,en;q=0.8'
+    'HTTP_COOKIE' => 'PHPSESSID=soa62jsosarn3kb73cqarhifpi; _csrf=52f4d55910a375bff78797cb2666fb76b4262302b4c7ac0f365a5991b887ca7fa%3A2%3A%7Bi%3A0%3Bs%3A5%3A%22_csrf%22%3Bi%3A1%3Bs%3A32%3A%22BKLfMm0CNUjsu4o68Sv2f6wY3Lh2619k%22%3B%7D'
+    'REQUEST_TIME_FLOAT' => 1592242442.2753
+    'REQUEST_TIME' => 1592242442
+]
